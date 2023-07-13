@@ -1,0 +1,10 @@
+package p2023_07_13;
+
+import java.util.Scanner;
+
+public class Report {
+	public static void main(String[] args) {
+		Scanner sc = Scanner(System.in);
+		
+	}
+}
