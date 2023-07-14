@@ -1,0 +1,13 @@
+package p2023_07_14;
+
+import java.util.Scanner;
+
+public class If03 {
+	public static void main(String[] args) {
+		// 키보드로 정수 2개를 입력 받았을 때, 최대값과 최소값을 구하는 프로그램
+		int n1, n2, n3, max, min;
+		System.out.print("2개의 정수를 입력 하세요?");
+		Scanner sc = new Scanner(System.in);
+		
+	}
+}
