@@ -26,17 +26,24 @@ public class MethodEx01 {
     public static int check01(){
         return 50;  //메소드를 호출한 곳에 값을 반환
     }
+    public static double check02(int a, double b){
+        double result = a + b;
+        return result;
+    }
     public static void main(String[] args) {
         check();
         check(10);
         check(10, 20.5);
         check('A');
         check(true);
-        check(new String("자바"));
+        check("자바");
 
         check01(); //출력 없이 반환만 수행
         int result = check01();
-        System.out.println("돌려받은 값 : " + result);
-        System.out.println("돌려받은 값 : " + check01());
+        System.out.println("돌려받은 값1 : " + result);
+        System.out.println("돌려받은 값2 : " + check01());
+        double result2 = check02(50, 3.14);
+        System.out.println("돌려받은 값3 : " + result2);
+        System.out.println("돌려받은 값4 : " + check02(50, 3.14));
     }
 }
