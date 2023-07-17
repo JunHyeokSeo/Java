@@ -1,8 +1,0 @@
-package p2023_07_13;
-
-// p78
-public class CastingEx01 {
-	public static void main(String[] args) {
-		
-	}
-}

@@ -1,9 +1,0 @@
-package p2023_07_14;
-
-public class WhileEx01 {
-	public static void main(String[] args) {
-		boolean run = true;
-		int balance = 0;
-		Scanner sc = new Scanner(System.in)
-	}
-}
