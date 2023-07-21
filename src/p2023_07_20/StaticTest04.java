@@ -5,7 +5,7 @@ class StaticTest4{
   private int b=20;
   public static void printA(){  
     System.out.println(a);         
-    System.out.println(b);   //컴파일 에러 발생
+//    System.out.println(b);   //컴파일 에러 발생
   }
 
   public void printB(){        
