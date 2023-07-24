@@ -28,7 +28,7 @@ public class SingletonEx {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		// private 접근 제어가 때문에 외부 클래스에서 접근할 수 없다.
+		// private 접근 제어자 때문에 외부 클래스에서 접근할 수 없다.
 //		System.out.println(Singleton.s);  //오류발생
 		
 		Singleton obj1 = Singleton.getInstance(); //정적메소드 호출

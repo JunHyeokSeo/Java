@@ -4,7 +4,7 @@ class FinalMember {
 	final int a = 10; 		// 상수
 
 	public void setA(int a) {
-		this.a = a;   // 상수는 값을 수정할 수 없다.
+//		this.a = a;   // 상수는 값을 수정할 수 없다.
 	}
 }
 
