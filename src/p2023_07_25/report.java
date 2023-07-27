@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class report {
 	static boolean validation(String str){
 		int[] arr = {2, 3, 4, 5, 6, 7, 8, 9, 2, 3, 4, 5};
-		int sum = 0, check = str.charAt(12) - '0', remain;
+		int total = 0, check = str.charAt(12) - '0';
 
 		for (int i = 0; i < arr.length; i++)
-			sum += Integer.parseInt(str.substring(i, i + 1)) * arr[i];
-		remain = sum % 11;
-		if (remain > 10) remain %= 10;
-		else remain = 11 - remain;
-		return remain == check;
+			total += Integer.parseInt(str.substring(i, i + 1)) * arr[i];
+		total %= 11;
+		total = 11 - total;
+		if (total > 9) total %= 10;
+		return total == check;
 	}
 
 	public static void main(String[] args) {
