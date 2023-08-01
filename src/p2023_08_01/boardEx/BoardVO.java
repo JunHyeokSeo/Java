@@ -1,4 +1,6 @@
-package p2023_07_31.listEx;// VO(Value Object) 클래스
+package p2023_08_01.boardEx;
+
+// VO(Value Object) 클래스
 // DTO(Data Transfer Object) 클래스
 
 public class BoardVO extends Object{
@@ -59,11 +61,14 @@ public class BoardVO extends Object{
 
 	public void setPasswd(String passwd) {
 		this.passwd = passwd;
-	}	
+	}
 
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
 		return "작성자:"+register+",이메일:"+email+",제목:"+subject+",글내용:"+content;
 	}
+	
 }
+
+
