@@ -1,4 +1,4 @@
-package p2023_08_01.accountingEx;
+package p2023_08_02.accountingEx;
 
 import java.util.Scanner;
 

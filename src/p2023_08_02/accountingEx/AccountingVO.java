@@ -1,4 +1,4 @@
-package p2023_08_01.accountingEx;
+package p2023_08_02.accountingEx;
 
 public class AccountingVO {
 	//필드 정의 및 Getter, Setter 정의
