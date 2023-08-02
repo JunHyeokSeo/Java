@@ -15,7 +15,7 @@ public class AccountingMain {
 			System.out.println("3. 회원 정보 수정");
 			System.out.println("4. 회원 정보 삭제");
 			System.out.println("5. 프로그램 종료");
-			String menu = sc.next();
+			String menu = sc.nextLine();
 			switch (menu){
 				case "1":
 					accountingSVC.insertMember(sc);
@@ -24,10 +24,10 @@ public class AccountingMain {
 					accountingSVC.checkMemberList();
 					break;
 				case "3":
-					accountingSVC.modifyMember();
+					accountingSVC.modifyMember(sc);
 					break;
 				case "4":
-					accountingSVC.deleteMember();
+					accountingSVC.deleteMember(sc);
 					break;
 				case "5":
 					loop = false;
