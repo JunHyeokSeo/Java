@@ -1,0 +1,35 @@
+//package p2023_08_04.inputEx;
+//
+//import java.io.FileReader;
+//
+//public class FileReaderTest {
+//	public static void main(String[] args) {
+//
+//		// FileReader 객체 선언
+//		FileReader file = null;
+//		int inputValue = 0;
+//
+//		try {
+//			// "data.txt" File과 stream 형성
+//			file = new FileReader("data.txt");    //상대경로
+//			//			file = new FileReader("c:/data.txt"); //절대경로
+//
+//			// file의 끝을 만날 때까지 데이터를 읽어 들임
+//			while ((inputValue = file.read()) != -1) {
+//				System.out.print((char) inputValue);
+//			}
+//
+//		} catch (Exception e) {
+//			System.out.println(e);
+//		} finally {
+//			if (file != null) try {
+//				file.close();
+//			} catch (Exception e) {
+//			}
+//		}
+//
+//	}// main() end
+//}
+//
+//
+//

@@ -86,7 +86,7 @@ public class BoardSVC {
 				System.out.println("해당 작성자가 없거나 비밀번호가 일치하지 않습니다.");
 				return;
 			}
-		}else{
+		} else{
 			System.out.println("작성된 글이 존재하지 않습니다.");
 		}
 	}

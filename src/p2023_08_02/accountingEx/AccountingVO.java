@@ -10,14 +10,14 @@ public class AccountingVO {
 	private String location;
 	private boolean loginState;
 
-	public AccountingVO(String id, String pw, String name, int age, String email, String location) {
+	public AccountingVO(String id, String pw, String name, int age, String email, String location, boolean loginState) {
 		this.id = id;
 		this.pw = pw;
 		this.name = name;
 		this.age = age;
 		this.email = email;
 		this.location = location;
-		this.loginState = false;
+		this.loginState = loginState;
 	}
 
 	public String getId() {
@@ -68,7 +68,7 @@ public class AccountingVO {
 		this.location = location;
 	}
 
-	public boolean getLoginState() {
+	public boolean isLoginState() {
 		return loginState;
 	}
 
