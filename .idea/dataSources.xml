@@ -9,6 +9,7 @@
       <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
       <jdbc-url>jdbc:oracle:thin:@localhost:1521:XE</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
+      <time-zone>Asia/Seoul</time-zone>
     </data-source>
     <data-source source="LOCAL" name="docker-oracle-scott" uuid="1afc4abb-4c04-46ba-a558-f2878fbdd948">
       <driver-ref>oracle.19</driver-ref>
@@ -18,6 +19,7 @@
       <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
       <jdbc-url>jdbc:oracle:thin:@localhost:1521:XE</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
+      <time-zone>Asia/Seoul</time-zone>
     </data-source>
   </component>
 </project>

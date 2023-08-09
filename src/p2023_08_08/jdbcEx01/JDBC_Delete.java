@@ -1,4 +1,4 @@
-package p2023_08_08.connectEx01;
+package p2023_08_08.jdbcEx01;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
