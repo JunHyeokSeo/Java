@@ -21,5 +21,12 @@
       <working-dir>$ProjectFileDir$</working-dir>
       <time-zone>Asia/Seoul</time-zone>
     </data-source>
+    <data-source source="LOCAL" name="mysql-jsptest" uuid="f367309e-b404-450a-97dc-ff99df64b45e">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

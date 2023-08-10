@@ -1,4 +1,4 @@
-package p2023_08_09.boardEx;
+package p2023_08_10.boardEx;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -44,6 +44,7 @@ public class InsertBoard {
 			try {
 				if (pstmt != null) pstmt.close();
 				if (con != null) con.close();
+				br.close();
 			}catch (Exception e){
 				e.printStackTrace();
 			}

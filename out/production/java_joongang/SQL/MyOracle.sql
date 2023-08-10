@@ -3,6 +3,7 @@
 
 -- 시퀀스 목록
 -- select * from seq;
+-- select * from BOARD;
 
 -- 예4. member 테이블 생성
 -- create table member(name varchar2(20),
@@ -60,10 +61,10 @@
 -- alter table CUSTOMER add (address varchar2(50));
 -- alter table CUSTOMER add (reg_date timestamp);
 
--- 시퀀스 생성
--- 시퀀스는 보통 컬럼에 적용, "테이블명_컬럼명_seq" 형식 사용
+-- 시퀀스 생성 (시퀀스는 보통 컬럼에 적용, "테이블명_컬럼명_seq" 형식 사용)
 -- create sequence customer_no_seq
 --     start with 1
 --     increment by 1;
+
 -- 시퀀스 삭제
 -- drop sequence CUSTORMER_NO_SEQ;
