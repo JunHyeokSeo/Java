@@ -2,7 +2,7 @@
 -- select * from tab;
 
 -- 시퀀스 목록
--- select * from seq;
+select * from seq;
 -- select * from BOARD;
 
 -- 예4. member 테이블 생성
